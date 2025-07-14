@@ -23,6 +23,8 @@ while True:
 
         if label == 'id_card':
             has_id_card = True
+        else:
+            has_id_card = False
 
     frame_out = results.plot()
 
